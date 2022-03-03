@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct MarketModel: Codable {
+struct MarketsDTO: Codable {
     let content: [MarketContent]
 }
 

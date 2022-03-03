@@ -7,7 +7,7 @@
 
 import Foundation
 // MARK: - AssetModel
-struct AssetModel: Codable {
+struct AssetDTO: Codable {
     let content: [AssetContent]
 }
 

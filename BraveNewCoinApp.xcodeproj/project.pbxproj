@@ -15,9 +15,9 @@
 		1B5002B227CF97FA007A6FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5002B027CF97FA007A6FB5 /* LaunchScreen.storyboard */; };
 		1B5002BA27CFD68E007A6FB5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002B927CFD68E007A6FB5 /* NetworkService.swift */; };
 		1B5002BC27D004DB007A6FB5 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002BB27D004DB007A6FB5 /* Authorization.swift */; };
-		1B5002BE27D00DD3007A6FB5 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002BD27D00DD3007A6FB5 /* TokenModel.swift */; };
-		1B5002C027D0B0D6007A6FB5 /* AssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002BF27D0B0D6007A6FB5 /* AssetModel.swift */; };
-		1B5002C227D0B30C007A6FB5 /* MarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002C127D0B30C007A6FB5 /* MarketModel.swift */; };
+		1B5002BE27D00DD3007A6FB5 /* TokenDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002BD27D00DD3007A6FB5 /* TokenDTO.swift */; };
+		1B5002C027D0B0D6007A6FB5 /* AssetsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002BF27D0B0D6007A6FB5 /* AssetsDTO.swift */; };
+		1B5002C227D0B30C007A6FB5 /* MarketsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002C127D0B30C007A6FB5 /* MarketsDTO.swift */; };
 		1B5002C427D0BA18007A6FB5 /* NetworkServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5002C327D0BA18007A6FB5 /* NetworkServiceClient.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,9 +32,9 @@
 		1B5002B327CF97FA007A6FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B5002B927CFD68E007A6FB5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		1B5002BB27D004DB007A6FB5 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
-		1B5002BD27D00DD3007A6FB5 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
-		1B5002BF27D0B0D6007A6FB5 /* AssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetModel.swift; sourceTree = "<group>"; };
-		1B5002C127D0B30C007A6FB5 /* MarketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketModel.swift; sourceTree = "<group>"; };
+		1B5002BD27D00DD3007A6FB5 /* TokenDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDTO.swift; sourceTree = "<group>"; };
+		1B5002BF27D0B0D6007A6FB5 /* AssetsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsDTO.swift; sourceTree = "<group>"; };
+		1B5002C127D0B30C007A6FB5 /* MarketsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsDTO.swift; sourceTree = "<group>"; };
 		1B5002C327D0BA18007A6FB5 /* NetworkServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,9 +71,9 @@
 				1B5002A527CF97F9007A6FB5 /* AppDelegate.swift */,
 				1B5002A727CF97F9007A6FB5 /* SceneDelegate.swift */,
 				1B5002A927CF97F9007A6FB5 /* ViewController.swift */,
-				1B5002C127D0B30C007A6FB5 /* MarketModel.swift */,
-				1B5002BF27D0B0D6007A6FB5 /* AssetModel.swift */,
-				1B5002BD27D00DD3007A6FB5 /* TokenModel.swift */,
+				1B5002C127D0B30C007A6FB5 /* MarketsDTO.swift */,
+				1B5002BF27D0B0D6007A6FB5 /* AssetsDTO.swift */,
+				1B5002BD27D00DD3007A6FB5 /* TokenDTO.swift */,
 				1B5002BB27D004DB007A6FB5 /* Authorization.swift */,
 				1B5002B927CFD68E007A6FB5 /* NetworkService.swift */,
 				1B5002C327D0BA18007A6FB5 /* NetworkServiceClient.swift */,
@@ -157,13 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5002AA27CF97F9007A6FB5 /* ViewController.swift in Sources */,
-				1B5002C227D0B30C007A6FB5 /* MarketModel.swift in Sources */,
+				1B5002C227D0B30C007A6FB5 /* MarketsDTO.swift in Sources */,
 				1B5002C427D0BA18007A6FB5 /* NetworkServiceClient.swift in Sources */,
-				1B5002BE27D00DD3007A6FB5 /* TokenModel.swift in Sources */,
+				1B5002BE27D00DD3007A6FB5 /* TokenDTO.swift in Sources */,
 				1B5002A627CF97F9007A6FB5 /* AppDelegate.swift in Sources */,
 				1B5002BA27CFD68E007A6FB5 /* NetworkService.swift in Sources */,
 				1B5002A827CF97F9007A6FB5 /* SceneDelegate.swift in Sources */,
-				1B5002C027D0B0D6007A6FB5 /* AssetModel.swift in Sources */,
+				1B5002C027D0B0D6007A6FB5 /* AssetsDTO.swift in Sources */,
 				1B5002BC27D004DB007A6FB5 /* Authorization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
